@@ -1,0 +1,376 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.sidenav-trigger {
+  color: black;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+.coming-soon * {
+  opacity: 0.7;
+  pointer-events: none;
+}
+
+#contact-preloader {
+  position: absolute; 
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  display:none; 
+  z-index: 100;
+}
+
+#contact-destination {
+  position:relative;
+}
+
+.bold {
+  font-weight:bold;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Noticia+Text&display=swap');
+
+.home-header {
+    font-family: 'Noticia Text', serif;
+    font-size: 1.4rem !important;
+    max-width:300px;
+    color: #444 !important;
+}
+
+@media only screen and (min-width: 600px) and (max-width: 650px) {
+  .home-header {
+    width:300px;
+  }
+}
+
+@media only screen and (max-width: 275px) {
+  #logo-container {
+    display:none;
+  }
+}
+
+.home-nav-links {
+    color: #0F4C85 !important;
+    text-align: center;
+    display: inline-block;
+    font-style: normal;
+    font-variant-ligatures: normal;
+    font-variant-caps: normal;
+    font-variant-numeric: normal;
+    font-variant-east-asian: normal;
+    font-weight: normal;
+    font-stretch: normal;
+    font-family: raleway, sans-serif;
+}
+
+.side-cover {
+    height: auto;
+    max-height: 100%;
+    width: 15%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    vertical-align: baseline;
+    background: 0 0;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 48, 91, 0.65);
+    text-align: right;
+    display:none;
+}
+
+.side-cover-text {
+    font-style: normal;
+    font-variant-ligatures: normal;
+    font-variant-caps: normal;
+    font-variant-numeric: normal;
+    font-variant-east-asian: normal;
+    font-family: 'raleway', sans-serif; 
+    color: white;
+    text-align: left;
+    letter-spacing: 0.03em;
+    padding-left: 10px;
+    padding-top:20%
+}
+
+.side-cover-text > text.heavy {
+  font-weight: 750;
+}
+
+.side-cover-text > text.light {
+  font-weight: 100;
+}
+
+.side-cover-tagline {
+    font-style: normal;
+    font-variant-ligatures: normal;
+    font-variant-caps: normal;
+    font-variant-numeric: normal;
+    font-variant-east-asian: normal;
+    font-family: 'raleway', serif; 
+    color: white;
+    text-align: left;
+    letter-spacing: 0.03em;
+    padding-left: 10px;
+}
+
+#tagline {
+    display:block;
+}
+
+@media (max-width: 995px) 
+{
+    #tagline
+    {
+        display: none;
+    }
+}
+
+.standard-text > div > div > h5 {
+    font-style: normal;
+    font-variant-ligatures: normal;
+    font-variant-caps: normal;
+    font-variant-numeric: normal;
+    font-variant-east-asian: normal;
+    font-weight: normal;
+    font-stretch: normal;
+    font-size: 20px;
+    font-family: "open sans", sans-serif !important;
+}
+
+.standard-text > div > div > p {
+    font-style: normal;
+    font-variant-ligatures: normal;
+    font-variant-caps: normal;
+    font-variant-numeric: normal;
+    font-variant-east-asian: normal;
+    font-weight: normal;
+    font-stretch: normal;
+    font-size: 16px;
+    font-family: "open sans", sans-serif !important;
+    text-align: center;
+}
+
+.standard-text > div > h5 {
+  font-style: normal;
+  font-variant-ligatures: normal;
+  font-variant-caps: normal;
+  font-variant-numeric: normal;
+  font-variant-east-asian: normal;
+  font-weight: normal;
+  font-stretch: normal;
+  font-size: 20px;
+  font-family: "open sans", sans-serif !important;
+}
+
+.standard-text > div > p {
+  font-style: normal;
+  font-variant-ligatures: normal;
+  font-variant-caps: normal;
+  font-variant-numeric: normal;
+  font-variant-east-asian: normal;
+  font-weight: normal;
+  font-stretch: normal;
+  font-size: 16px;
+  font-family: "open sans", sans-serif !important;
+  text-align: center;
+}
+
+@media (min-width: 995px)  {
+    .vertical-extension-parallax {
+        min-height: 500px !important;
+    }
+    .side-cover {
+        display:block;
+    }
+}
+
+#map-link, #tel-number {
+    color:white;
+}
+
+.adjust-width > div > img {
+    max-width:100% !important;
+}
+
+.border {
+    border:2px solid lightblue;
+}
+
+.hide {
+    display:none;
+}
+
+.link:hover {
+  color:lightblue !important;
+}
+
+#practice-areas-dropdown > li > a {
+  color: #444;
+}
+
+.custom-parallax {
+  max-width:100%;
+}
+
+.practice-areas-text {
+  font-size: 14px;
+}
+
+.details-left {
+  text-align:left !important;
+}
+
+.no-marg-top {
+  margin-top: 0px;
+}
+
+.no-marg-bot {
+  margin-bottom: 0px !important;
+}
+
+.fifty-width {
+  max-width: 50%;
+}
+
+.seventy-width {
+  max-width: 70%;
+}
+
+.monthly-payment-text {
+  font-size: 40px;
+}
+
+.total-cost-text {
+  font-size: 20px;
+}
+
+.mark-headshot { 
+  max-height: 550px;
+}
+
+.mark-details {
+  text-align:left !important;
+}
+.tagline-text {
+  font-size: 1vw; 
+  text-align: left; 
+  padding-left: 10px;
+}
+
+.top-margin-twenty-vh {
+  margin-top:20vh;
+}
+
+.top-padding-twenty-px {
+  padding-top:20px;
+}
+
+.privacy-policy-text {
+  font-size: 12px; 
+  text-align:left !important;
+}
+
+#toast-container {
+  top: auto !important;
+  right: 7%;
+  bottom: 10%;
+  left:auto !important;  
+}
+
+.toast-action {
+  color:#66BB6A !important;
+}
+
+.table-cell-align-left {
+  text-align: left !important;
+  max-width: 250px !important;;
+}
+
+.right-pad {
+  padding-right: 20%;
+}
+
+.alignment-outer-center {
+  text-align: center;
+}
+
+.alignment-inner {
+  display:inline-block;
+}
+
+.character-remaining-counter {
+  font-size: 80%;
+}
+
+.facebook-desktop-link {
+  position: fixed;
+    border-radius: 0px;
+    background-color: #485992 !important;
+    top: 1.2%;
+    left: 88%;
+}
+
+.btn-floating {
+  background-color: #485992 !important;
+}
+
+.btn-floating:hover {
+  background-color: #485992 !important;
+}
